@@ -59,6 +59,8 @@ Functional Simulation:
 */Program  for  4-Bit Up-Down Counter
 
 	Use Save option or Ctrl+S to save the code or click on the save option from the top most right corner and close the text file.
+![image](https://github.com/user-attachments/assets/cbf8db2c-5866-4456-8403-86f1d7d6cf2b)
+
 
 ## Creating Test bench:
 
@@ -80,6 +82,8 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
 Click the cds.lib file and save the file by clicking on Save option
+![image](https://github.com/user-attachments/assets/f2af41b0-811d-465a-af80-392b569fd669)
+
 
 ## Fig 4: cds.lib file Creation
 
@@ -88,6 +92,8 @@ Click the cds.lib file and save the file by clicking on Save option
 	Select “Don’t include any libraries (verilog design)” from “New cds.lib file” and click on “OK” as in below figure
 
 	We are simulating verilog design without using any libraries
+![image](https://github.com/user-attachments/assets/3d501ef8-2db1-4cfa-be6a-181987f98eee)
+
 
 ## Fig 5: Selection of Don’t include any libraries
 
@@ -98,10 +104,13 @@ Click the cds.lib file and save the file by clicking on Save option
 	Left side you can see the HDL files. Right side of the window has worklib and snapshots directories listed.
 
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
+![image](https://github.com/user-attachments/assets/b0b69ce9-a7c3-4d64-b6e9-f1fc729e6f9c)
+
 
 ## Fig 6: Nclaunch Window
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation.
+![image](https://github.com/user-attachments/assets/89a3d367-2f16-4a56-93ea-0daef5d954f9)
 
 ## Step 1: Compilation:– Process to check the correct Verilog language syntax and usage 
 
@@ -131,6 +140,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located.
 It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
+![Screenshot 2024-09-25 105235](https://github.com/user-attachments/assets/313106e2-c53c-4a94-abe5-3d08ddf9cf9a)
 
 ## Step 2: Elaboration:– To check the port connections in hierarchical design 
 
@@ -153,6 +163,7 @@ It contains statements that map logical library names to their physical director
 	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
 ## Fig 8: Elaboration Launch Option
+![image](https://github.com/user-attachments/assets/095298d8-7477-4758-81bb-8183aea489eb)
 
 ### Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
@@ -165,8 +176,9 @@ It contains statements that map logical library names to their physical director
 	Steps for simulation – Run the simulation command with simulator options
 
 ## Fig 9: Design Browser window for simulation
+![image](https://github.com/user-attachments/assets/c784da44-99d5-4b96-8a7e-c767a26e3d4e)
 
 ## Fig 10: Simulation Waveform Window
+![image](https://github.com/user-attachments/assets/a78d332b-09c1-49ed-ab39-fa7608583603)
 
-## Fig 11: Simulation Waveform Window
 
